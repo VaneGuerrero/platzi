@@ -1,0 +1,198 @@
+{
+  "contractVersion": "1.0.0",
+  "radar": {
+    "name": "AI Radar",
+    "description": "Snapshot diario de senales recientes de inteligencia artificial, normalizadas por fuente, evidencia, impacto, accion y estado."
+  },
+  "search": {
+    "id": "2026-07-09-ai-news-signals",
+    "query": "5 noticias recientes de inteligencia artificial como senales de AI Radar",
+    "runDate": "2026-07-09",
+    "timezone": "Etc/UTC",
+    "language": "es",
+    "requestedFormat": ["fuente", "evidencia", "impacto", "accion", "estado"],
+    "sourcePolicy": "Noticias y analisis recientes encontrados en busqueda web; se guarda la URL usada como fuente de evidencia."
+  },
+  "signals": [
+    {
+      "id": "ai-infrastructure-capex-pressure",
+      "title": "El gasto en infraestructura de IA empieza a preocupar a inversionistas",
+      "category": "infraestructura-mercado",
+      "source": {
+        "name": "The big jump in AI stocks could be making investors nervous",
+        "publisher": "AP News",
+        "url": "https://apnews.com/article/tech-stocks-ai-investments-8a0ff4c95d5cae6f65c6e2ba03047058",
+        "type": "news"
+      },
+      "evidence": {
+        "summary": "AP reporta que Alphabet, Amazon, Meta y Microsoft planean gastar hasta 720.000 millones de dolares este ano, principalmente en centros de datos para IA.",
+        "observations": [
+          "El gasto de capital de Big Tech sigue concentrado en infraestructura de IA.",
+          "La senal combina crecimiento del mercado con preocupacion por retorno de inversion."
+        ]
+      },
+      "impact": {
+        "level": "high",
+        "summary": "Afecta a hyperscalers, proveedores de chips, energia, centros de datos, cloud y startups que dependen de costos de inferencia bajos.",
+        "affectedAreas": ["cloud", "chips", "centros de datos", "energia", "startups de IA"]
+      },
+      "action": {
+        "recommendation": "Monitorear si el ritmo de capex se mantiene o si aparecen recortes, retrasos o senales de sobrecapacidad.",
+        "nextSteps": [
+          "Seguir reportes trimestrales de capex de Big Tech.",
+          "Vigilar margenes cloud y utilizacion de GPU.",
+          "Disenar productos con eficiencia de inferencia desde el inicio."
+        ]
+      },
+      "status": {
+        "label": "Monitorear / riesgo macro",
+        "stage": "watch",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "recursive-self-improvement-models",
+      "title": "Crece el interes por modelos de IA que se mejoran a si mismos",
+      "category": "modelos-frontera",
+      "source": {
+        "name": "AI Stocks: Will Self-Improving Models Decide Who Wins Superintelligence Race?",
+        "publisher": "Investor's Business Daily",
+        "url": "https://www.investors.com/news/technology/ai-stocks-google-self-improving-models-superintelligence-race/",
+        "type": "analysis"
+      },
+      "evidence": {
+        "summary": "El articulo describe el interes de laboratorios de IA por recursive self-improvement, donde sistemas de IA ayudan a crear o mejorar nuevos sistemas de IA con menos intervencion humana.",
+        "observations": [
+          "La senal apunta a automatizacion del ciclo de investigacion y entrenamiento.",
+          "El riesgo tecnico incluye amplificacion de errores, sesgos o alucinaciones por ciclos automaticos."
+        ]
+      },
+      "impact": {
+        "level": "very_high",
+        "summary": "Podria acelerar el desarrollo de modelos frontera y cambiar la competencia por AGI o superinteligencia.",
+        "affectedAreas": ["laboratorios de IA", "benchmarks", "datos sinteticos", "evaluacion automatizada"]
+      },
+      "action": {
+        "recommendation": "Tratarlo como senal estrategica temprana y exigir evidencia objetiva antes de asumir madurez tecnica.",
+        "nextSteps": [
+          "Seguir benchmarks de agentes de investigacion y evaluadores automaticos.",
+          "Comparar mejoras automatizadas contra evaluacion humana independiente.",
+          "Experimentar primero con evaluadores controlados antes de automatizar entrenamiento."
+        ]
+      },
+      "status": {
+        "label": "Exploracion estrategica",
+        "stage": "strategic_exploration",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ai-safety-pledges-retreat",
+      "title": "Empresas de IA estarian debilitando compromisos de seguridad",
+      "category": "gobernanza-seguridad",
+      "source": {
+        "name": "AI companies retreat from safety pledges even as capabilities grow",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/07/07/report-ai-safety-pledges",
+        "type": "news"
+      },
+      "evidence": {
+        "summary": "Axios resume un reporte del Future of Life Institute que evalua a grandes laboratorios de IA y sostiene que varias companias han diluido o eliminado compromisos voluntarios de seguridad.",
+        "observations": [
+          "La senal cruza gobernanza, reputacion y regulacion.",
+          "El avance de capacidades aumenta la importancia de compromisos de seguridad verificables."
+        ]
+      },
+      "impact": {
+        "level": "high",
+        "summary": "Puede aumentar el riesgo regulatorio, reputacional y de confianza para laboratorios y productos enterprise de IA.",
+        "affectedAreas": ["gobernanza", "compliance", "enterprise AI", "regulacion", "seguridad"]
+      },
+      "action": {
+        "recommendation": "Marcar como alerta de gobernanza y revisar si los proveedores mantienen politicas de seguridad auditables.",
+        "nextSteps": [
+          "Comparar compromisos publicos actuales contra versiones anteriores.",
+          "Pedir evidencia de red teaming, evaluaciones y trazabilidad a proveedores.",
+          "Documentar limites de uso en sistemas propios antes de produccion."
+        ]
+      },
+      "status": {
+        "label": "Alerta de seguridad",
+        "stage": "alert",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "amazon-moonraker-agentic-alexa",
+      "title": "Amazon intenta ponerse al dia en agentes de IA con Moonraker",
+      "category": "producto-agentes",
+      "source": {
+        "name": "Artificial Intelligence coverage",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence",
+        "type": "index"
+      },
+      "evidence": {
+        "summary": "The Verge reporta cobertura sobre el esfuerzo Moonraker de Amazon para mejorar Alexa AI y habilitar tareas mas avanzadas de multiples pasos.",
+        "observations": [
+          "La senal muestra que la competencia se mueve de chatbots a agentes de accion.",
+          "Amazon podria combinar Alexa, compras, hogar inteligente y AWS si logra una experiencia confiable."
+        ]
+      },
+      "impact": {
+        "level": "medium",
+        "summary": "Puede acelerar la adopcion de agentes personales en interfaces de voz, comercio y automatizacion del hogar.",
+        "affectedAreas": ["agentes", "voice assistants", "ecommerce", "smart home", "AWS"]
+      },
+      "action": {
+        "recommendation": "Observar si Alexa pasa de respuestas conversacionales a ejecucion transaccional confiable.",
+        "nextSteps": [
+          "Seguir demos publicas y disponibilidad de Moonraker.",
+          "Evaluar integraciones de productos con agentes y no solo con interfaces web.",
+          "Identificar flujos multi-step que requieran confirmacion humana."
+        ]
+      },
+      "status": {
+        "label": "En desarrollo / competencia de producto",
+        "stage": "developing",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "china-ai-persona-minors-regulation",
+      "title": "China endurece reglas sobre personas virtuales y servicios de IA para menores",
+      "category": "regulacion-safety",
+      "source": {
+        "name": "Hong Kong's Mideast pivot and China's AI persona woes",
+        "publisher": "Financial Times",
+        "url": "https://www.ft.com/content/1ce77001-dc0d-44a9-bfd4-0dbb10ec27e5",
+        "type": "news"
+      },
+      "evidence": {
+        "summary": "FT reporta reglas en China con entrada en vigor el 15 de julio de 2026 para restringir relaciones virtuales intimas generadas por IA para menores y exigir consentimiento en ciertos servicios antropomorficos.",
+        "observations": [
+          "La senal afecta companions, personajes de IA, avatares y servicios emocionales.",
+          "La proteccion de menores aparece como eje regulatorio prioritario."
+        ]
+      },
+      "impact": {
+        "level": "high",
+        "summary": "Puede anticipar controles similares en otros mercados para IA social, privacidad, manipulacion emocional y salud mental infantil.",
+        "affectedAreas": ["regulacion", "companions de IA", "menores", "privacidad", "salud mental"]
+      },
+      "action": {
+        "recommendation": "Tratar servicios antropomorficos con menores como area de alto riesgo regulatorio y de seguridad.",
+        "nextSteps": [
+          "Implementar verificacion de edad y consentimiento parental donde aplique.",
+          "Definir limites de conversacion para menores.",
+          "Auditar personajes de IA para riesgos de dependencia emocional o manipulacion."
+        ]
+      },
+      "status": {
+        "label": "Regulacion activa",
+        "stage": "active",
+        "confidence": "high"
+      }
+    }
+  ]
+}
