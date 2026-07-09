@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Radar | Señales recientes de IA</title>
+    <meta
+      name="description"
+      content="AI Radar convierte noticias recientes de inteligencia artificial en señales estructuradas con fuente, evidencia, impacto, acción y estado."
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Navegación principal">
+        <a class="brand" href="./" aria-label="AI Radar inicio">
+          <span class="brand-mark">AI</span>
+          <span>AI Radar</span>
+        </a>
+        <a class="github-link" href="https://github.com/vaneguerrero/platzi" rel="noreferrer">GitHub</a>
+      </nav>
+
+      <section class="hero-content">
+        <p class="eyebrow">Señales accionables para builders</p>
+        <h1>Convierte noticias recientes de IA en decisiones claras.</h1>
+        <p class="hero-copy">
+          AI Radar normaliza novedades de inteligencia artificial como señales con fuente,
+          evidencia, impacto, acción recomendada y estado operativo.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#signals">Ver señales</a>
+          <a class="button secondary" href="snapshots/daily/2026-07-09-ai-news-signals.json">Abrir JSON</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="summary-grid" aria-label="Resumen de producto">
+        <article>
+          <strong id="signal-count">0</strong>
+          <span>señales guardadas</span>
+        </article>
+        <article>
+          <strong id="snapshot-date">—</strong>
+          <span>snapshot diario</span>
+        </article>
+        <article>
+          <strong id="contract-version">—</strong>
+          <span>contrato</span>
+        </article>
+      </section>
+
+      <section class="panel" aria-labelledby="workflow-title">
+        <div>
+          <p class="eyebrow">Flujo AI Radar</p>
+          <h2 id="workflow-title">De noticia a señal estructurada</h2>
+        </div>
+        <ol class="workflow">
+          <li>Buscar fuentes recientes y verificables.</li>
+          <li>Separar evidencia de inferencias.</li>
+          <li>Estimar impacto y áreas afectadas.</li>
+          <li>Recomendar acciones concretas.</li>
+          <li>Asignar estado operativo y confianza.</li>
+        </ol>
+      </section>
+
+      <section class="signals-section" id="signals" aria-labelledby="signals-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Radar diario</p>
+            <h2 id="signals-title">Señales recientes</h2>
+          </div>
+          <label class="filter-label" for="status-filter">
+            Filtrar por estado
+            <select id="status-filter">
+              <option value="all">Todos</option>
+            </select>
+          </label>
+        </div>
+        <div id="signals-list" class="signals-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>AI Radar · Proyecto Platzi Codex · Datos desde snapshots JSON.</p>
+    </footer>
+
+    <script src="assets/app.js" type="module"></script>
+  </body>
+</html>

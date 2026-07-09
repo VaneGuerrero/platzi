@@ -6,11 +6,120 @@
   },
   "search": {
     "id": "2026-07-09-ai-news-signals",
+    "query": "noticias recientes de inteligencia artificial para guardar como senales de AI Radar",
     "query": "5 noticias recientes de inteligencia artificial como senales de AI Radar",
     "runDate": "2026-07-09",
     "timezone": "Etc/UTC",
     "language": "es",
     "requestedFormat": ["fuente", "evidencia", "impacto", "accion", "estado"],
+    "sourcePolicy": "Noticias y analisis recientes encontrados en busqueda web el 2026-07-09; se guarda la URL usada como fuente de evidencia."
+  },
+  "signals": [
+    {
+      "id": "slow-superintelligence-race-warning",
+      "title": "Nueva advertencia pide desacelerar la carrera hacia la superinteligencia",
+      "category": "gobernanza-superinteligencia",
+      "source": {
+        "name": "First look: New warning calls for slowing race to superintelligence",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/07/09/ai-report-slow-race-superintelligence",
+        "type": "news"
+      },
+      "evidence": {
+        "summary": "Axios reporta un ensayo del AI Futures Project que pide una estrategia global para retrasar el desarrollo de IA superinteligente hacia 2040, con un acuerdo verificable entre potencias como Estados Unidos y China.",
+        "observations": [
+          "La propuesta parte de riesgos de perdida de control, gobernanza insuficiente y disrupciones politicas o economicas extremas.",
+          "La senal es relevante porque desplaza la conversacion de seguridad desde evaluaciones voluntarias hacia coordinacion geopolitica verificable."
+        ]
+      },
+      "impact": {
+        "level": "very_high",
+        "summary": "Puede influir en debates regulatorios, politicas de frontera, acuerdos internacionales y decisiones de laboratorios que desarrollan modelos avanzados.",
+        "affectedAreas": ["superinteligencia", "gobernanza", "geopolitica", "seguridad", "modelos frontera"]
+      },
+      "action": {
+        "recommendation": "Monitorear si la propuesta gana apoyo institucional o se convierte en insumo para reguladores, gobiernos o laboratorios frontera.",
+        "nextSteps": [
+          "Seguir respuestas de laboratorios y gobiernos a la propuesta.",
+          "Comparar la idea de desaceleracion verificable con politicas actuales de evaluacion y despliegue.",
+          "Marcar como riesgo estrategico para productos que dependan de modelos frontera."
+        ]
+      },
+      "status": {
+        "label": "Alerta estrategica de gobernanza",
+        "stage": "alert",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "meta-canada-ai-data-center",
+      "title": "Meta anuncia su primer centro de datos de IA en Canada",
+      "category": "infraestructura-centros-de-datos",
+      "source": {
+        "name": "Meta plans billions for first AI data center in Canada, largest outside the United States",
+        "publisher": "AP News",
+        "url": "https://apnews.com/article/meta-ai-data-center-canada-922a7d15ab730ec53b934269fc00a0fa",
+        "type": "news"
+      },
+      "evidence": {
+        "summary": "AP reporta que Meta invertira mas de 9.100 millones de dolares para construir en Alberta su primer centro de datos de IA en Canada y el mayor fuera de Estados Unidos.",
+        "observations": [
+          "La instalacion se ubicara en Sturgeon County, Alberta.",
+          "El proyecto estara alimentado por una planta de gas natural desarrollada por un consorcio que incluye a Pembina Pipeline."
+        ]
+      },
+      "impact": {
+        "level": "high",
+        "summary": "Refuerza la expansion internacional de infraestructura de IA y conecta el crecimiento de modelos con energia, regulacion local y capacidad de centros de datos.",
+        "affectedAreas": ["Meta", "infraestructura", "energia", "centros de datos", "Canada"]
+      },
+      "action": {
+        "recommendation": "Monitorear permisos, suministro energetico, impacto local y si otros hyperscalers replican inversiones similares fuera de Estados Unidos.",
+        "nextSteps": [
+          "Seguir fechas de construccion y capacidad proyectada.",
+          "Observar reacciones regulatorias y comunitarias en Alberta.",
+          "Evaluar oportunidades y riesgos para proveedores de energia y data center ops."
+        ]
+      },
+      "status": {
+        "label": "Infraestructura activa",
+        "stage": "active",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "amazon-moonraker-agent-race",
+      "title": "Amazon intenta ponerse al dia en agentes de IA con Moonraker",
+      "category": "producto-agentes",
+      "source": {
+        "name": "Amazon is reportedly trying to catch up in the AI agent race with Moonraker",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/962871/amazon-is-reportedly-trying-to-catch-up-in-the-ai-agent-race-with-moonraker",
+        "type": "news"
+      },
+      "evidence": {
+        "summary": "The Verge reporta que Amazon trabaja en Moonraker, un proyecto enfocado en mejorar Alexa AI y competir en la carrera de agentes de IA.",
+        "observations": [
+          "La senal apunta al paso de asistentes conversacionales a agentes capaces de realizar tareas de multiples pasos.",
+          "Amazon podria combinar Alexa, comercio, hogar inteligente y AWS si el proyecto madura."
+        ]
+      },
+      "impact": {
+        "level": "medium",
+        "summary": "Puede acelerar la competencia en agentes personales y cambiar como los usuarios interactuan con compras, hogares inteligentes y servicios cloud.",
+        "affectedAreas": ["agentes", "Alexa", "ecommerce", "smart home", "AWS"]
+      },
+      "action": {
+        "recommendation": "Seguir demos, disponibilidad y capacidades reales de ejecucion de tareas antes de tratarlo como plataforma madura.",
+        "nextSteps": [
+          "Identificar flujos transaccionales donde Amazon podria tener ventaja.",
+          "Comparar Moonraker con agentes de Google, OpenAI y Anthropic.",
+          "Preparar integraciones que funcionen con agentes y no solo con interfaces web."
+        ]
+      },
+      "status": {
+        "label": "Competencia de producto en desarrollo",
+        "stage": "developing",
     "sourcePolicy": "Noticias y analisis recientes encontrados en busqueda web; se guarda la URL usada como fuente de evidencia."
   },
   "signals": [
@@ -123,6 +232,38 @@
       }
     },
     {
+      "id": "anthropic-claude-science-drugs",
+      "title": "Anthropic entra en ciencia y desarrollo propio de farmacos",
+      "category": "ia-ciencia-salud",
+      "source": {
+        "name": "Anthropic wants to develop its own drugs",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+        "type": "news"
+      },
+      "evidence": {
+        "summary": "The Verge reporta que Anthropic lanzo Claude Science y anuncio planes para desarrollar sus propios medicamentos, especialmente para enfermedades desatendidas.",
+        "observations": [
+          "Anthropic pasaria de vender herramientas de IA para ciencia a participar directamente en descubrimiento de farmacos.",
+          "Expertos citados advierten que la IA no reemplaza experimentos, ensayos clinicos ni aprobacion regulatoria."
+        ]
+      },
+      "impact": {
+        "level": "high",
+        "summary": "Senala una expansion de los laboratorios de IA hacia industrias reguladas de alto impacto y ciclos largos de validacion.",
+        "affectedAreas": ["salud", "biotech", "drug discovery", "regulacion", "laboratorios de IA"]
+      },
+      "action": {
+        "recommendation": "Tratar como senal estrategica de largo plazo y monitorear colaboraciones, hiring cientifico, wet labs y primeros candidatos terapeuticos.",
+        "nextSteps": [
+          "Seguir anuncios de enfermedades objetivo o partners clinicos.",
+          "Separar avances computacionales de validacion experimental.",
+          "Evaluar si Claude Science abre casos de uso para investigadores externos."
+        ]
+      },
+      "status": {
+        "label": "Exploracion estrategica en salud",
+        "stage": "strategic_exploration",
       "id": "amazon-moonraker-agentic-alexa",
       "title": "Amazon intenta ponerse al dia en agentes de IA con Moonraker",
       "category": "producto-agentes",
@@ -159,6 +300,38 @@
       }
     },
     {
+      "id": "ai-stocks-rebound-market-concentration",
+      "title": "Las acciones de IA impulsan al mercado cerca de maximos",
+      "category": "mercado-finanzas",
+      "source": {
+        "name": "Rebounding AI stocks send the S&P 500 within 1% of its record",
+        "publisher": "AP News",
+        "url": "https://apnews.com/article/9563a33b0789edf00cf92e76c6516fe5",
+        "type": "news"
+      },
+      "evidence": {
+        "summary": "AP reporta que el repunte de acciones ligadas a IA llevo al S&P 500 a menos de 1% de su record, aunque la mayoria de componentes del indice cayeron.",
+        "observations": [
+          "Broadcom subio tras acuerdos de suministro de largo plazo con Apple.",
+          "El mercado sigue evaluando si las inversiones en chips y centros de datos de IA produciran ganancias de productividad y rentabilidad."
+        ]
+      },
+      "impact": {
+        "level": "medium",
+        "summary": "Muestra concentracion del impulso bursatil en IA y sensibilidad del mercado a la narrativa de chips, data centers y productividad.",
+        "affectedAreas": ["acciones IA", "semiconductores", "indices bursatiles", "data centers", "productividad"]
+      },
+      "action": {
+        "recommendation": "Monitorear si el rally de IA se sostiene con resultados financieros o si aumenta el riesgo de concentracion y volatilidad.",
+        "nextSteps": [
+          "Seguir earnings de fabricantes de chips y hyperscalers.",
+          "Comparar crecimiento de ingresos contra gasto en infraestructura.",
+          "Vigilar volatilidad en proveedores clave como memoria, networking y data centers."
+        ]
+      },
+      "status": {
+        "label": "Monitorear senal de mercado",
+        "stage": "watch",
       "id": "china-ai-persona-minors-regulation",
       "title": "China endurece reglas sobre personas virtuales y servicios de IA para menores",
       "category": "regulacion-safety",

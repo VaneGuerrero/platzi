@@ -1,0 +1,3 @@
+display_name: AI Radar News Signals
+short_description: Noticias IA como señales AI Radar
+default_prompt: Busca noticias recientes de IA y devuélvelas como señales AI Radar con fuente, evidencia, impacto, acción y estado.
